@@ -1,7 +1,10 @@
-# Reverse Engineering/2 - GIF Extend
-This is the README for Reverse Engineering/2.
+# The Tale of Pinocchio - Reverse Engineering
+Pinocchio always seems to find himself in the most troublesome of situations. 
+Every time he tells a tall tale, his nose grows, but he never learns. Can you see through his lies and tell us the truth?
 
-FLAG: parsec{l135_d3c31t_ch34t_c3$1!49kAp}
+![challenge.gif](/files/6a9007f01986b98c7e180a3b17c7a4b6/challenge.gif)
+
+FLAG: parsec{l135_dec31t_ch34t_c3$1!49kAp}
 
 ## Challenge Overview
 
@@ -17,7 +20,7 @@ Upon inspection, we discover that `challenge.gif` displays 5 frames. Based on th
 
 2. **Frame Separation**: In a standard GIF file, frames are separated by a specific byte sequence. The separation is typically managed through the use of the GCE, which indicates the beginning of a new frame. This structure allows for the proper sequencing and display of animated GIFs.
 
-3. **Graphics Control Extension (GCE)**: The GCE is identified by the byte sequence `0x21 0xF9`. This extension is crucial for identifying hwere a GCE block begins for each frame.
+3. **Graphics Control Extension (GCE)**: The GCE is identified by the byte sequence `0x21 0xF9`. This extension is crucial for identifying where a GCE block begins for each frame.
 
 4. **End Of File (EOF)**: The end of a GIF file is marked by the byte sequence `0x3B`, which signifies the termination of the file.
 
