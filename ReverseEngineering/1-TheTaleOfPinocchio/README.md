@@ -12,7 +12,7 @@ In this challenge, we are tasked with analyzing a GIF file named `challenge.gif`
 
 ## Analyzing the GIF
 
-Upon inspection, we discover that `challenge.gif` displays 5 frames. Based on the GIF itself and the hint given by the riddle (mentioning pinocchio and ASCII characters), the challenge might lie in the way the frames are separated within the GIF file.
+Upon inspection, we discover that `challenge.gif` displays 5 frames. The challenge might lie in the way the frames are separated within the GIF file.
 
 ### Technical Breakdown of GIF File Structure
 
