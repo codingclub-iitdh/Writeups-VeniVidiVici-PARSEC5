@@ -41,7 +41,8 @@ This might be a numbers station.
 3. The sample audio over at https://priyom.org/number-stations/english/e11/ seems to confirm this fact.
 4. Digging deeper, we see that it is the English mode of the Polish 11 operator. https://priyom.org/number-stations/operators/polish-11
 5. The location is 	52°25'46"N 20°52'53"E (Warsaw, Poland).
-6. Location: google.com/maps/place/52°25'46.0"N+20°52'53.0"E. Zooming out a bit, we see that "La Trattoria Marcello & Giulia" is a pizza place located nearby on the same road. The pictures also indicate that this pizza place contains hammocks and outdoor seating, confirming the place in question. 
+6. Location: https://google.com/maps/place/52°25'46.0"N+20°52'53.0"E
+7. Zooming out a bit, we see that "La Trattoria Marcello & Giulia" is a pizza place located nearby on the same road. The pictures also indicate that this pizza place contains hammocks and outdoor seating, confirming the place in question. 
 
 ### Constructing the flag, 
 
