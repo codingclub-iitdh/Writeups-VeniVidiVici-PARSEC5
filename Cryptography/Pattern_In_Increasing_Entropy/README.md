@@ -18,3 +18,4 @@ Keeping the IP of the other party in mind, we can filter out the traffic. We fin
 
 Now we can decrypt the flag with the program dec.py found in this directory.
 
+You will get the flag: `parsec{N0t50Rand0mAft3r4ll_8612649722}`
